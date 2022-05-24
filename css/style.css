@@ -92,6 +92,8 @@ nav {
     width: 17px;
     height: 17px;  
     border-radius: 50%;
+    font-size: 15px;
+    margin-right: 5px;
 }
 
 .check-green::after {
@@ -102,7 +104,7 @@ nav {
 
 .check-red::after {
     color: red;
-    content: '\2717';
+    content: '\2717';    
     border: 1px solid red;
 }
 
@@ -110,6 +112,8 @@ nav {
     border-radius: 10px;
     color: #fff;
     padding: 5px 10px;
+    font-size: 13px;
+    margin-left: 5px;
 }
 
 .label-blue::after {
