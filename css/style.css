@@ -36,15 +36,14 @@ nav {
     background-color: #fff;
     margin-top: 30px;
     margin-bottom: 5px;
-    padding: 1%;
-    padding-left: 5%;
+    padding: 10px 5%;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
 }
 
 .button {
     border-radius: 5px;
-    padding: 4px;
+    padding: 4px 10px;
 }
 
 .button-blue {
@@ -108,9 +107,9 @@ nav {
 }
 
 .label::after {
-    border-radius: 20px;
+    border-radius: 10px;
     color: #fff;
-    padding: 5px;
+    padding: 5px 10px;
 }
 
 .label-blue::after {
