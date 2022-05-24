@@ -1,13 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Toboolist</title>
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-    
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Toboolist</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com"/>
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,300;8..144,600&family=Roboto:wght@100;400;700&display=swap" rel="stylesheet"/>
+        <link rel="stylesheet" href="css/style.css"/>
+    </head>
+    <body>
+        <!-- intestazione -->
+        <header>
+            <img id="logo" src="img/Logo.png" alt="Logo"/>
+            <span id="logo-text">Toboolist</span>
+        </header>
+        <!-- fine intestazione -->
+        <!-- inizio nav -->
+        <nav>
+            <button class="button button-blue">Add Task</button>
+            <button class="button button-gray">Add Section</button>
+        </nav>
+        <!-- fine nav -->
+        <!-- inizio todolist -->
+        <div class="todolist-container">
+            <ul class="todolist">
+                <li class="main-object"><strong>New Task</strong>              
+                    <li class="object"><span class="check check-green"></span> Lorem, ipsum dolor. <span class="label label-blue"></span></li>
+                </li>
+                <li class="main-object"><strong>Today</strong>                   
+                    <li class="object"><span class="check check-green"></span> Lorem, ipsum dolor. <span class="label label-blue"></span></li>
+                    <li class="object"><span class="check check-green"></span> Lorem, ipsum dolor. <span class="label label-purple"></span></li>
+                    <li class="object"><span class="check check-red"></span> Lorem, ipsum dolor. <span class="label label-green"></span></li>
+                    <li class="object"><span class="check check-green"></span> Lorem, ipsum dolor. <span class="label label-orange"></span></li>
+                </li>
+                <li class="main-object"><strong>Upcomig</strong>       
+                    <li class="object"><span class="check check-green"></span> Lorem, ipsum dolor. <span class="label label-pink"></span></li>
+                    <li class="object"><span class="check check-green"></span> Lorem, ipsum dolor. <span class="label label-lightgreen"></span></li>
+                    <li class="object"><span class="check check-green"></span> Lorem, ipsum dolor. <span class="label label-blue"></span></li>
+                    <li class="object"><span class="check check-red"></span> Lorem, ipsum dolor. <span class="label"></span></li>
+                </li>
+            </ul>
+        </div>
+        <!-- fine todolist -->
+    </body>
 </html>
