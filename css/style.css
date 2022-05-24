@@ -27,7 +27,7 @@ header {
     font-weight: 700;
 }
 
-nav, .todolist-container {
+main {
     width: 80%;
     margin: auto;
 }
