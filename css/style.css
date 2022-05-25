@@ -67,7 +67,7 @@ nav {
     padding-bottom: 30px;
 }
 
-.todolist {
+ul > li {
     list-style-type: none;
 }
 
@@ -78,31 +78,31 @@ nav {
 }
 
 .main-object::before {
-    content: '\25BC';
+    content: '\25BE';
 }
 
 .object {
     margin-bottom: 15px;
+    line-height: 20px;
 }
 
-.check::after {
+.check::before {
     display: inline-block;
     text-align: center;
-    vertical-align: middle;
-    width: 17px;
-    height: 17px;  
+    width: 20px;
+    height: 20px;  
     border-radius: 50%;
     font-size: 15px;
     margin-right: 5px;
 }
 
-.check-green::after {
+.check-green::before {
     color: green;
     content: '\2713';
     border: 1px solid green;
 }
 
-.check-red::after {
+.check-red::before {
     color: red;
     content: '\2717';    
     border: 1px solid red;
@@ -114,6 +114,7 @@ nav {
     padding: 5px 10px;
     font-size: 13px;
     margin-left: 5px;
+    vertical-align: middle;
 }
 
 .label-blue::after {
